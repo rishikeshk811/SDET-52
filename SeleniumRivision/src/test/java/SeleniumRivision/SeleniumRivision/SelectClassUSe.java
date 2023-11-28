@@ -12,6 +12,9 @@ public class SelectClassUSe {
 WebDriver driver=new ChromeDriver();
 driver.manage().window().maximize();
 driver.manage().window().fullscreen();
+driver.get("");
+driver.getPageSource();
+driver.getCurrentUrl();
 //   driver.findElement(By.)
 	}
 
