@@ -11,8 +11,10 @@ public class SelectClassUSe {
 	public static void main(String[] args) {
 WebDriver driver=new ChromeDriver();
 driver.manage().window().maximize();
-driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-driver.get("https://www.myntra.com/");
+driver.manage().window().fullscreen();
+driver.get("");
+driver.getPageSource();
+driver.getCurrentUrl();
 //   driver.findElement(By.)
 	}
 
